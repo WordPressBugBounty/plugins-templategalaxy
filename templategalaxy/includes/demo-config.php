@@ -172,6 +172,41 @@ function templategalaxy_demo_importer_get_templates_lists($theme_slug)
                 ),
             );
             break;
+        case "rumblepress":
+            $demo_templates_lists = array(
+                'rumblepress' => array(
+                    'title' => esc_html__('Rumblepress', 'templategalaxy'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('rumblepress', 'templategalaxy'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/free/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/free/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/free/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/rumblepress/',
+                    'plugins' => ''
+                ),
+                'rumblepress-pro' => array(
+                    'title' => esc_html__('Rumblepress Pro', 'templategalaxy'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('rumblepress pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/pro/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/pro/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/rumblepress/pro/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/rumblepress-pro/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         case "shopcity":
             $demo_templates_lists = array(
                 'shopcity' => array(

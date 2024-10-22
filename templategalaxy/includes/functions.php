@@ -44,6 +44,9 @@ function tg_display_current_time()
     return $current_time;
 }
 add_shortcode('TG_CURRENT_TIME', 'tg_display_current_time');
+
+
+
 if (tg_fs()->is__premium_only()) {
     if (tg_fs()->can_use_premium_code()) {
         function templategalaxy_block_pattern()
@@ -425,10 +428,6 @@ if (tg_fs()->is__premium_only()) {
                 )
             );
         }
-
-
-
-
         add_action('init', 'templategalaxy_block_pattern');
     }
 }
@@ -525,9 +524,6 @@ if (!function_exists('tg_posted_on')) :
 
         echo '<span class="posted-on">' . $posted_on . '</span>';
     }
-
-
-
 endif;
 
 function tg_display_breadcrumbs()
@@ -584,12 +580,10 @@ function tg_display_related_posts()
             <?php }
             } ?>
         </div>
-
 <?php wp_reset_postdata();
     }
     return ob_get_clean();
 }
-
 add_shortcode('TG_RELATED_POSTS', 'tg_display_related_posts');
 
 function tg_display_social_sharing_icons()
