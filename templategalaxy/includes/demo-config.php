@@ -448,6 +448,103 @@ function templategalaxy_demo_importer_get_templates_lists($theme_slug)
                 ),
             );
             break;
+        case "wydegrid":
+            $demo_templates_lists = array(
+                'wydegrid' => array(
+                    'title' => esc_html__('Default', 'templategalaxy'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid', 'templategalaxy'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid/',
+                    'plugins' => ''
+                ),
+                'wydegrid-2' => array(
+                    'title' => esc_html__('WydeGrid 2', 'templategalaxy'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid', 'templategalaxy'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/2/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/2/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/2/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/2/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid-2/',
+                    'plugins' => ''
+                ),
+                'wydegrid-3' => array(
+                    'title' => esc_html__('WydeGrid 3', 'templategalaxy'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid', 'templategalaxy'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/3/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/3/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/3/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/free/3/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid-3/',
+                    'plugins' => ''
+                ),
+                'wydegrid-pro' => array(
+                    'title' => esc_html__('WydeGrid Pro 3', 'templategalaxy'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid-pro/',
+                    'plugins' => ''
+                ),
+                'wydegrid-pro-2' => array(
+                    'title' => esc_html__('WydeGrid Pro 1', 'templategalaxy'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/2/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/2/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/2/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/2/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid-pro-2/',
+                    'plugins' => ''
+                ),
+                'wydegrid-pro-3' => array(
+                    'title' => esc_html__('WydeGrid Pro 3', 'templategalaxy'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('wydegrid pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/3/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/3/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/3/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/wydegrid/pro/3/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/wydegrid-pro-3/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         default:
             $demo_templates_lists = array();
     endswitch;

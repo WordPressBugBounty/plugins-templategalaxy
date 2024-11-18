@@ -3,8 +3,8 @@ Contributors: WebsiteinWP
 Tags: template-library, pattern-library-for-block, full-site-editing-layout
 Requires PHP: 7.3.0
 Requires at least: 5.9
-Tested up to: 6.6
-Stable tag: 1.0.12
+Tested up to: 6.7
+Stable tag: 1.0.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ Yes, it's free.
 Yes, you can use this plugin with any themes that support or comes with block full site editing features.
 
 == Changelog ==
+= 1.0.13 - Nov 18, 2024 =
+* Added demo site importer for "Wydegrid" Theme
+* Tested up to 6.7
+
 = 1.0.12 - Oct 22, 2024 =
 * Added demo site importer for "Rumblepress" Theme
 

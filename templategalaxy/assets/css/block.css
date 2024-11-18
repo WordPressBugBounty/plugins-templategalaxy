@@ -220,7 +220,8 @@
 .block-editor-block-list__layout .tg-news-ticker-2 li.wp-block-post,
 .block-editor-block-list__layout .tg-news-ticker-3 li.wp-block-post,
 .block-editor-block-list__layout .tg-post-carousel-4 li.wp-block-post,
-.block-editor-block-list__layout .tg-post-carousel-5 li.wp-block-post {
+.block-editor-block-list__layout .tg-post-carousel-5 li.wp-block-post,
+.block-editor-block-list__layout .tg-content-carousel li.wp-block-post {
   display: none !important;
 }
 .block-editor-block-list__layout .tg-post-slider li.wp-block-post:first-child,
@@ -251,6 +252,11 @@
 .block-editor-block-list__layout .tg-post-carousel-5 li {
   padding: 15px;
   margin-block-start: 0 !important;
+}
+.block-editor-block-list__layout .tg-content-carousel li.wp-block-post:first-child,
+.block-editor-block-list__layout .tg-content-carousel li.wp-block-post:nth-child(2),
+.block-editor-block-list__layout .tg-content-carousel li.wp-block-post:first-child(3) {
+  display: block !important;
 }
 .news-ticker-holder .swiper-button-prev {
   left: auto !important;
