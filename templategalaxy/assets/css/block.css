@@ -179,6 +179,7 @@
 .tg-news-ticker-2,
 .tg-news-ticker-3,
 .tg-post-carousel,
+.tg-post-carousel-gap,
 .tg-post-carousel-4,
 .tg-post-carousel-5,
 .tg-content-carousel,
@@ -196,9 +197,11 @@
 .tg-news-ticker li.swiper-slide,
 .tg-swiper-holder li.swiper-slide,
 .tg-post-carousel li.swiper-slide,
+.tg-post-carousel-gap li.swiper-slide,
 .tg-post-carousel-4 li.swiper-slide,
 .tg-post-carousel-5 li.swiper-slide,
-.block-editor-block-list__layout .tg-post-carousel li {
+.block-editor-block-list__layout .tg-post-carousel li,
+.block-editor-block-list__layout .tg-post-carousel-gap li {
   margin-block-start: 0 !important;
 }
 .wp-block-group.tg-slider-control {
@@ -217,6 +220,7 @@
 .block-editor-block-list__layout .tg-post-slider li.wp-block-post,
 .block-editor-block-list__layout .tg-news-ticker li.wp-block-post,
 .block-editor-block-list__layout .tg-post-carousel li.wp-block-post,
+.block-editor-block-list__layout .tg-post-carousel-gap li.wp-block-post,
 .block-editor-block-list__layout .tg-news-ticker-2 li.wp-block-post,
 .block-editor-block-list__layout .tg-news-ticker-3 li.wp-block-post,
 .block-editor-block-list__layout .tg-post-carousel-4 li.wp-block-post,
@@ -229,6 +233,9 @@
 .block-editor-block-list__layout .tg-post-carousel li.wp-block-post:first-child,
 .block-editor-block-list__layout .tg-post-carousel li.wp-block-post:nth-child(2),
 .block-editor-block-list__layout .tg-post-carousel li.wp-block-post:nth-child(3),
+.block-editor-block-list__layout .tg-post-carousel-gap li.wp-block-post:first-child,
+.block-editor-block-list__layout .tg-post-carousel-gap li.wp-block-post:nth-child(2),
+.block-editor-block-list__layout .tg-post-carousel-gap li.wp-block-post:nth-child(3),
 .block-editor-block-list__layout .tg-news-ticker-2 li.wp-block-post:first-child,
 .block-editor-block-list__layout .tg-news-ticker-2 li.wp-block-post:nth-child(2),
 .block-editor-block-list__layout .tg-news-ticker-2 li.wp-block-post:nth-child(3),
@@ -248,6 +255,7 @@
   display: block !important;
 }
 .block-editor-block-list__layout .tg-post-carousel li,
+.block-editor-block-list__layout .tg-post-carousel-gap li,
 .block-editor-block-list__layout .tg-post-carousel-4 li,
 .block-editor-block-list__layout .tg-post-carousel-5 li {
   padding: 15px;

@@ -206,6 +206,38 @@
       },
       // Add more options as needed
     });
+    var tgPostCarslTwo = new Swiper(".tg-post-carousel-gap", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".tgpost-carousel-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".tgpost-carousel-next",
+        prevEl: ".tgpost-carousel-prev",
+      },
+      breakpoints: {
+        400: {
+          slidesPerView: 1,
+        },
+        767: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 2,
+        },
+        1180: {
+          slidesPerView: 3,
+        },
+      },
+      // Add more options as needed
+    });
     var tgPostCarsl4 = new Swiper(".tg-post-carousel-4", {
       slidesPerView: 1,
       spaceBetween: 20,

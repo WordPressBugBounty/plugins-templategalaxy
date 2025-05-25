@@ -16,7 +16,7 @@
  * Plugin Name:       TemplateGalaxy
  * Plugin URI:        https://websiteinwp.com/templategalaxy/
  * Description:       TemplateGalaxy is a powerful WordPress plugin designed to enhance your block Full Site Editing (FSE) experience by providing an extensive library of patterns and templates. Whether you’re a developer, designer, or content creator, TemplateGalaxy simplifies the process of designing and organizing your website using the block FSE editor.
- * Version:           1.0.13
+ * Version:           1.0.14
  * Author:            WebsiteinWP
  * Author URI:        https://websiteinwp.com/
  * License:           GPL-2.0+
@@ -72,7 +72,7 @@ if (!function_exists('tg_fs')) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('TEMPLATEGALAXY_VERSION', '1.0.13');
+define('TEMPLATEGALAXY_VERSION', '1.0.14');
 define('TEMPLATEGALAXY_PATH', plugin_dir_path(__FILE__));
 define('TEMPLATEGALAXY_URL', plugin_dir_url(__FILE__));
 define('TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL', TEMPLATEGALAXY_URL . 'includes/demos/');

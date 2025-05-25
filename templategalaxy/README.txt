@@ -1,10 +1,10 @@
-=== TemplateGalaxy - Patterns and Template Library for Block and FSE Editor ===
+=== TemplateGalaxy - Patterns and Template Library for WebsiteinWP Themes, Patterns and Demo Importer  ===
 Contributors: WebsiteinWP
 Tags: template-library, pattern-library-for-block, full-site-editing-layout
 Requires PHP: 7.3.0
 Requires at least: 5.9
-Tested up to: 6.7
-Stable tag: 1.0.13
+Tested up to: 6.8
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Patterns and Template Library for Block and FSE Editor
 
 == Description ==
 
-TemplateGalaxy is a powerful WordPress plugin designed to enhance your block Full Site Editing (FSE) experience by providing an extensive library of patterns and templates. Whether you’re a developer, designer, or content creator, TemplateGalaxy simplifies the process of designing and organizing your website using the block FSE editor.
+TemplateGalaxy is a powerful WordPress plugin developed by Websiteinwp, designed to enhance your Full Site Editing (FSE) experience. It serves as both a demo importer and a rich library of patterns and templates tailored specifically for Websiteinwp’s themes. Whether you're a developer, designer, or content creator, TemplateGalaxy streamlines the process of building and customizing websites with ease using the block editor.
 
 = Available Patterns and Templates =
 <ul>
@@ -48,6 +48,10 @@ Yes, it's free.
 Yes, you can use this plugin with any themes that support or comes with block full site editing features.
 
 == Changelog ==
+= 1.0.13 - May 26, 2025 =
+* Added demo site importer for "Bloghoot" Theme
+* Tested up to 6.8
+
 = 1.0.13 - Nov 18, 2024 =
 * Added demo site importer for "Wydegrid" Theme
 * Tested up to 6.7

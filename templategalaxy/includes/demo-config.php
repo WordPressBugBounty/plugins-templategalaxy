@@ -545,6 +545,41 @@ function templategalaxy_demo_importer_get_templates_lists($theme_slug)
                 ),
             );
             break;
+        case "bloghoot":
+            $demo_templates_lists = array(
+                'bloghoot' => array(
+                    'title' => esc_html__('Bloghoot', 'templategalaxy'),/*Title*/
+                    'is_pro' => false,  /*Premium*/
+                    'type' => 'free',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('bloghoot', 'templategalaxy'),  /*Search keyword*/
+                    'categories' => array('free'), /*Categories*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/free/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/free/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/free/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/free/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/bloghoot/',
+                    'plugins' => ''
+                ),
+                'bloghoot-pro' => array(
+                    'title' => esc_html__('Bloghoot Pro', 'templategalaxy'),/*Title*/
+                    'is_pro' => true,  /*Premium*/
+                    'type' => 'premium',
+                    'author' => esc_html__('WebsiteinWP', 'templategalaxy'),    /*Author Name*/
+                    'keywords' => array('bloghoot pro', 'multipurpose'),  /*Search keyword*/
+                    'template_url' => array(
+                        'content' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/pro/1/content.json',
+                        'options' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/pro/1/options.json',
+                        'widgets' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/pro/1/widgets.json'
+                    ),
+                    'screenshot_url' => TEMPLATEGALAXY_IMPORTER_SETUP_TEMPLATE_URL . '/bloghoot/pro/1/screenshot.png',
+                    'demo_url' => 'https://demos.websiteinwp.com/bloghoot-pro/',
+                    'plugins' => ''
+                ),
+            );
+            break;
         default:
             $demo_templates_lists = array();
     endswitch;
